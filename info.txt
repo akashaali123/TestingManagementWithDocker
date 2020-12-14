@@ -38,6 +38,13 @@ Wsl 2 ip 192.168.56.1
 sql image configuration on docker-compose file
 
 
+docker-container for api listening 8080
+docker-container for sql server 14334
+192.168.56.1,14334
+Akasha@12
+
+
+
 cheat sheet for new work
 
 dotnet restore
