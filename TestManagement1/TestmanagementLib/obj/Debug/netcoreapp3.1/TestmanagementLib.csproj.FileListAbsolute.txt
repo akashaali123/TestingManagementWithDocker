@@ -1,0 +1,10 @@
+C:\Users\akasha.nasir\Desktop\TestManagement1\TestManagement1\TestmanagementLib\bin\Debug\netcoreapp3.1\TestmanagementLib.deps.json
+C:\Users\akasha.nasir\Desktop\TestManagement1\TestManagement1\TestmanagementLib\bin\Debug\netcoreapp3.1\TestmanagementLib.runtimeconfig.json
+C:\Users\akasha.nasir\Desktop\TestManagement1\TestManagement1\TestmanagementLib\bin\Debug\netcoreapp3.1\TestmanagementLib.runtimeconfig.dev.json
+C:\Users\akasha.nasir\Desktop\TestManagement1\TestManagement1\TestmanagementLib\bin\Debug\netcoreapp3.1\TestmanagementLib.dll
+C:\Users\akasha.nasir\Desktop\TestManagement1\TestManagement1\TestmanagementLib\bin\Debug\netcoreapp3.1\TestmanagementLib.pdb
+C:\Users\akasha.nasir\Desktop\TestManagement1\TestManagement1\TestmanagementLib\obj\Debug\netcoreapp3.1\TestmanagementLib.AssemblyInfoInputs.cache
+C:\Users\akasha.nasir\Desktop\TestManagement1\TestManagement1\TestmanagementLib\obj\Debug\netcoreapp3.1\TestmanagementLib.AssemblyInfo.cs
+C:\Users\akasha.nasir\Desktop\TestManagement1\TestManagement1\TestmanagementLib\obj\Debug\netcoreapp3.1\TestmanagementLib.dll
+C:\Users\akasha.nasir\Desktop\TestManagement1\TestManagement1\TestmanagementLib\obj\Debug\netcoreapp3.1\TestmanagementLib.pdb
+C:\Users\akasha.nasir\Desktop\TestManagement1\TestManagement1\TestmanagementLib\obj\Debug\netcoreapp3.1\TestmanagementLib.csprojAssemblyReference.cache

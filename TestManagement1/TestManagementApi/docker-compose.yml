@@ -1,0 +1,29 @@
+﻿ version: '3'
+ services: 
+
+    db: 
+      image: akashaarpa/sqlservertest:2ndcommit
+      volumes: 
+          - db-data:/var/opt/mssql
+      environment: 
+         ACCEPT_EULA: 'Y'
+         SA_PASSWORD: 'Akasha@12'
+      ports:  
+       - "14334:1433"
+    
+    api: 
+      build: 
+          context: .
+          dockerfile: Dockerfile
+      depends_on: 
+         - db
+      ports: 
+         - "8080:80"
+      environment: 
+         - DBHost=192.168.56.1 
+         - DBPort=14334 
+         - DBPassword=Akasha@12 
+         - DBUser=sa 
+         - DBName=TestManagement 
+ volumes:
+    db-data:

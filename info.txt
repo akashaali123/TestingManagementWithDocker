@@ -1,0 +1,74 @@
+Docker Version
+
+
+Client: Docker Engine - Community
+ Cloud integration: 1.0.4
+ Version:           20.10.0
+ API version:       1.41
+ Go version:        go1.13.15
+ Git commit:        7287ab3
+ Built:             Tue Dec  8 18:55:31 2020
+ OS/Arch:           windows/amd64
+ Context:           default
+ Experimental:      true
+
+Server: Docker Engine - Community
+ Engine:
+  Version:          20.10.0
+  API version:      1.41 (minimum version 1.12)
+  Go version:       go1.13.15
+  Git commit:       eeddea2
+  Built:            Tue Dec  8 18:58:04 2020
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          v1.4.3
+  GitCommit:        269548fa27e0089a8b8278fc4fc781d7f65a939b
+ runc:
+  Version:          1.0.0-rc92
+  GitCommit:        ff819c7e9184c13b7c2607fe6c30ae19403a7aff
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+
+Configure on WSL 2
+
+
+Wsl 2 ip 192.168.56.1
+sql image configuration on docker-compose file
+
+
+cheat sheet for new work
+
+dotnet restore
+dotnet build
+dotnet publish -o dist
+
+
+docker-compose build
+docker-compose up 
+docker-compose down
+
+
+Points to reminds
+
+firewall configuration
+ubuntu route
+
+check host
+
+
+volume configuration
+
+
+Access wsl through firewall
+
+
+\\wsl$
+
+
+
+
+
+
+

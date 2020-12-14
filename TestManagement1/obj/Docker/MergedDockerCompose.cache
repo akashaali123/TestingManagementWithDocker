@@ -1,0 +1,24 @@
+services:
+  db:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Akasha@12
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    ports:
+    - published: 1434
+      target: 1433
+  testmanagementapi:
+    build:
+      context: C:\Users\akasha.nasir\Desktop\TestManagement1\TestManagement1
+      dockerfile: TestManagementApi/Dockerfile
+    depends_on:
+      db:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: myapp
+    ports:
+    - published: 8080
+      target: 80
+    - target: 80
+version: '3.4'
